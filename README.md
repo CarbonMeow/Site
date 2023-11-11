@@ -1,2 +1,2 @@
 # Site
-Run my personal website service.
+This is the repository for my website.
