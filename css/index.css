@@ -1,14 +1,4 @@
-video {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  object-fit: cover;
-}
-
-.navbar {
+navbar {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   background-color: lightgray;
@@ -62,22 +52,22 @@ video {
   width: 80%;
 }
 
-.content h1 {
+.motd h1 {
   font-family: "Roboto", sans-serif;
   color: white;
   font-weight: bold;
   text-align: center;
 }
 
-.content p {
+.motd p {
   font-style: italic;
   color: white;
   text-align: center;
   color: white;
 }
 
-.card1 {
-  background-color: rgba(255, 255, 255, 0.8);
+.r {
+  background-color: rgba(212, 212, 212, 0.8);
   border-radius: 15px;
   margin: 30px auto;
   padding: 30px;
@@ -86,90 +76,9 @@ video {
   text-align: left;
 }
 
-.card1 h2 {
+.r h2 {
   color: black;
   font-weight: bold;
   margin-right: 10px;
   font-size: 1.5em;
-}
-
-.card1 button {
-  background-color: #0074D9;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 10px;
-}
-
-.card1 button:hover {
-  background-color: #0056b3
-}
-
-.card2 {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 15px;
-  margin: 30px auto;
-  padding: 30px;
-  font-family: "Roboto", serif;
-  font-size: 1.1em;
-  text-align: left;
-}
-
-.card2 h2 {
-  color: black;
-  font-weight: bold;
-  margin-right: 10px;
-  font-size: 1.5em;
-}
-
-.card2 span {
-  color: black;
-  font-weight: bold;
-  margin-right: 10px;
-  font-size: 1.5em;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  border-top: 1px solid white;
-  font-family: "Roboto", serif;
-  color: white;
-  font-size: 1em;
-  text-align: left;
-}
-
-.container {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.social-icons a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  transition: background-color 0.3s;
-  border-radius: 5px;
-}
-
-.social-icons {
-  list-style: none;
-  display: flex;
-}
-
-.social-icons li {
-  margin: 0 10px;
-}
-
-.social-icons li a {
-  display: block;
-  width: 25px;
-  height: 25px;
-}
-
-.social-icons li a img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
